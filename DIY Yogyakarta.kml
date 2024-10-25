@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>DIY Yogyakarta</name>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>DIY Yogyakarta</name>
+      <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              110.0260331,-7.8859556,0
+              110.3363968,-8.026043,0
+              110.351503,-8.0613973,0
+              110.6000687,-8.1470506,0
+              110.6961991,-8.1946278,0
+              110.8307816,-8.1959871,0
+              110.8156754,-8.1606447,0
+              110.7882096,-8.162004,0
+              110.7923294,-8.0994677,0
+              110.7552506,-8.0369216,0
+              110.7827164,-7.8369817,0
+              110.7717301,-7.808411,0
+              110.7579972,-7.8274584,0
+              110.7277848,-7.798887,0
+              110.66736,-7.798887,0
+              110.5877091,-7.808411,0
+              110.568483,-7.7798383,0
+              110.5382706,-7.798887,0
+              110.4943253,-7.7662316,0
+              110.4435135,-7.5402961,0
+              110.2745987,-7.7118003,0
+              110.2704789,-7.6478345,0
+              110.1564957,-7.6437513,0
+              110.1180436,-7.6655282,0
+              110.1317765,-7.6941086,0
+              110.0260331,-7.8859556,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
